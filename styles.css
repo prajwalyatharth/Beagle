@@ -1,0 +1,36 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#top-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+#images-section, #trivia-section {
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
