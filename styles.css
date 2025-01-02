@@ -1,36 +1,63 @@
-/* Basic styles */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
-h1, h2 {
-    color: #333;
-}
-
-#top-section {
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif; /* Replace with the font from Figma */
+    background-color: #f0f0f0; /* Example background color */
+    margin: 20px;
     padding: 20px;
 }
 
-#images-section, #trivia-section {
-    padding: 20px;
+h1 {
+    color: #333; /* Example heading color */
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-top: 10px;
+h2 {
+    color: #555; /* Example subheading color */
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #666; /* Example paragraph color */
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 a {
-    color: #3498db;
+    color: #007bff; /* Example link color */
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 }
+
+.top-section {
+    border: 1px solid #ccc; /* Example border */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.trivia-section {
+    border: 1px solid #ccc; /* Example border */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Add more specific styling rules as per the Figma design */
+/* Example: */
+/* .top-section h1 {
+    color: #009933; 
+} */
